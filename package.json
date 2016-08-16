@@ -1,10 +1,11 @@
 {
   "name": "oracle-cloud-api",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A Oracle API client implemented in nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "dependencies": {
     "lodash": "^4.13.1",
     "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1"
   }
 }
