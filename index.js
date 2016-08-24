@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('package');
+const config = require('./package');
 const _ = require('lodash');
 
 function OracleComputeCloudAPI(options) {
